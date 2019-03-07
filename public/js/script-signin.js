@@ -16,7 +16,7 @@ document.getElementById('btn-login').onclick = () => {
                 } else {
                     alert('Trình duyệt của bạn đã quá cũ. Hãy nâng cấp trình duyệt ngay!');
                 }
-                window.location.replace('/home');
+                window.location.replace('/home.html');
             }
         }
     })
