@@ -7,7 +7,7 @@ router.use(bodyParser.json());
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('signup');
+    res.render('signup.html');
 });
 
 router.post('/signup', (req, res)=>{
