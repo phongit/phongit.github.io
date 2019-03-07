@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+}
+
+input[type=text],
+input[type=date],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(18, 179, 23);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn:hover{
+        background-color: #f44336;
+}
+
+button:hover {
+    background-color: rgb(45, 179, 49);
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.signup {
+    text-align: center;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 80px auto auto auto;
+    border: 1px solid #888;
+    width: 400px;
+    height: auto;
+}
+.modal-content-signup {
+    background-color: #fefefe;
+    margin: 20px auto auto auto;
+    border: 1px solid #888;
+    width: 400px;
+    height: auto;
+}
+input[type=text]:focus,
+    input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+    button:hover {
+        opacity: 1;
+    }
+
+    .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f73325;
+    }
+
+    .cancelbtn,
+    .changepsw,
+    .signupbtn {
+        float: left;
+        width: 50%;
+    }
+
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .signup {
+        text-align: center;
+    }
+
+    .gioitinh{
+        margin: 15px 0;
+    }
+    .checknam{
+        margin-left: 50px;
+    }
+    .checknu{
+        margin-left: 50px;
+    }

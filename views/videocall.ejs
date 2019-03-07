@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Chat</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <input type="hidden" id="userName" value="<%= nguoiNhan%>">
+    <input type="hidden" id="checkcall" value="<%= check%>">
+    <div class="FriendVideo">
+        <video id="FriendStream" width="100%" height="546px" controls> </video>
+    </div>
+    <div class="LocalVideo" id="LocalVideo">
+        <video id="LocalStream" width="250px" height="180px" controls></video>
+    </div>
+    <div class="endcall">
+        <button id="btnClose" width="80px" height="50px"> END CALL</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <% include footer %>
+    <script src="js/openStream.js"></script>
+    <script src="js/playVideo.js"></script>
+    <script src="js/peer.min.js"></script>
+    <script src="js/script-videocall.js"></script>
+</body>
+
+</html>

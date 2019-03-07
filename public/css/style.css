@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+}
+
+.list_chat{
+    width: 35%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+    position: fixed;
+    /* margin-top: 100px; */
+}
+
+.content_chat{
+    width: 65%;
+    height: 100%;
+    background-color: greenyellow;
+    float: left;
+    color: red;
+    position: fixed;
+    margin-left: 35%;
+    /* margin-top: 100px; */
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+}
+  
+.menu_home {
+    float: left;
+}
+  
+.menu_home a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.menu_home a:hover {
+    background-color: #111;
+}
+
+.menu_chat{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    height: 45px;
+}
+  
+.call {
+    float: right;
+}
+  
+.call a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.call a:hover {
+    background-color: #111;
+}
+
+.username{
+    float: left;
+}
+
+.username a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.content_chat_message{
+    position: fixed;
+    height: 100%;
+    width: 65%;
+    top: 95px;
+    bottom: 40px;
+    background-color: yellow;
+}
+
+.content_chat_footer{
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    width: 65%;
+}
+
+.content_chat_footer input{
+    width: 70%;
+    height: 40px;
+    font-size: 16px;
+}
+
+.message_left{
+    float: left;
+    left: 0;
+    background-color: aqua;
+    max-width: 60%;
+    font-size: 20px;
+}
+
+.message_right{
+    float: right;
+    text-align: right;
+    right: 0;
+    background-color: blue;
+    max-width: 60%;
+    font-size: 20px;
+}
+.message{
+    width: 100%;
+    float: left;
+}
+
+.list_chat_search{
+    top: 50;
+    position: fixed;
+    width: 35%;
+}
+
+.list_chat_search input{
+    margin-left: 15%;
+    margin-top: 10px;
+    width: 70%;
+    height: 30px;
+    font-size: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 780px;
+    height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  .LocalVideo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 180px;
+}
+  .FriendVideo{
+      width: 100%;
+      height: 100%;
+}
+
+.endcall{
+    width: 100%;
+    position: fixed;
+    bottom: 30px;
+    text-align: center;
+}
