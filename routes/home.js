@@ -7,7 +7,7 @@ var moment = require('moment');
 router.use(bodyParser.json());
 
 router.get('/', function (req, res) {
-    res.render('home');
+    res.render('home.html');
 });
 
 router.post('/showmesgs', (req, res)=>{
